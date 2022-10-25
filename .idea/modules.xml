@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mai_schedule.iml" filepath="$PROJECT_DIR$/mai_schedule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/mai_schedule_android.iml" filepath="$PROJECT_DIR$/android/mai_schedule_android.iml" />
     </modules>
   </component>
 </project>
