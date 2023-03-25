@@ -1,4 +1,4 @@
-
+import 'dart:ui';
 
 class Subject {
   final String name;
@@ -6,7 +6,6 @@ class Subject {
   final String time;
   final String teacher;
   final String place;
-
 
   Subject({
     required this.name,

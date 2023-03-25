@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8b3dc4-1f47-4337-b9a2-9b2d0dd4fa07" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data/parsing/parser.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data/values/my_colors.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/day.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/subject.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/fragments/homework_fragment.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/fragments/news_fragment.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/fragments/profile_fragment.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/fragments/schedule_fragment.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/fragments/today_fragment.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
+    <list default="true" id="7f8b3dc4-1f47-4337-b9a2-9b2d0dd4fa07" name="Changes" comment="parser integrated">
+      <change afterPath="$PROJECT_DIR$/lib/domain/department.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/domain/week.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/custom_widgets.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/parsing/parser.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/parsing/parser.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/values/my_colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/values/my_colors.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/day.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/day.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/subject.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/subject.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/fragments/schedule_fragment.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/fragments/schedule_fragment.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/fragments/today_fragment.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/fragments/today_fragment.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mai_schedule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mai_schedule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/presentation/fragments" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -112,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666707855438</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="parser integrated">
+      <created>1671495475174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671495475174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,22 +133,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="parser integrated" />
+    <option name="LAST_COMMIT_MESSAGE" value="parser integrated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/lib/data/parsing/parser.dart</url>
-          <line>38</line>
-          <option name="timeStamp" value="2" />
+          <line>9</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/presentation/fragments/today_fragment.dart</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/lib/data/parsing/parser.dart</url>
+          <line>119</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint suspend="THREAD" type="dart-exception" />
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
